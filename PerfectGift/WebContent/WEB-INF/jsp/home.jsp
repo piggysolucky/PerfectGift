@@ -5,12 +5,15 @@
 
 	<head>
 		<meta  http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-		<link rel="stylesheet" type ="text/css" href = "WebContent/CSS/mystyle.css"/>
+		<link rel="stylesheet" type ="text/css" href = "/CSS/mystyle.css"/>
 		<title>Perfect Gift</title>
 	</head>
 	
 	<body>
 		<jsp:include page = "header.jsp" />
+		<span id = "test">
+		This is just for test!
+		</span>
 		<jsp:include page = "footer.jsp" />
 	</body>
 </html>
