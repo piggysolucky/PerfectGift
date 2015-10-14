@@ -2,13 +2,12 @@
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
+    <!--This section is for the header section -->
     <jsp:include page = "header.jsp" />
+    
+    <!-- Body of the homepage-->
 	<body style = "background-color:#484848; color:white;">
 		<div class = "bodyContainer" style = "width: 80%; padding-left: 100px;">
-		<!--This section is for the company logo-->
-		<div>
-			<h1 style = "padding: 20px 5px; font-family:fantasy, cursive;">Perfect Gift</h1>
-		</div>
 		
 		
 		<!-- This section is for the company introduction.-->
