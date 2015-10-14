@@ -1,8 +1,10 @@
 @CHARSET "ISO-8859-1";
 
 #footerContainer{
-	text-align:center;
-	background-color:red;
+	text-align:right;
+	background-color:#006666;
+	padding:20px 2px;
+	color:white
 }
 span{
 	padding: 20px;
