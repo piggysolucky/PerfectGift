@@ -12,7 +12,6 @@
 	<body>
 		<jsp:include page = "header.jsp" />
 		<span id = "test">
-		This is just for test!
 		</span>
 		<jsp:include page = "footer.jsp" />
 	</body>
