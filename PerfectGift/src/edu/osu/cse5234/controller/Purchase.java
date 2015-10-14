@@ -17,10 +17,11 @@ import edu.osu.cse5234.model.ShippingInfo;
 @RequestMapping(path = "/purchase")
 public class Purchase {
 	
+	
 	@RequestMapping(method = RequestMethod.GET)
 	public String viewOrderEntryPage(HttpServletRequest request, HttpServletResponse response) throws Exception {
 		Order order = new Order();
-		order.getItems().add(new Item("Roses"));
+		order.getItems().add(new Item("Ros"));
 		order.getItems().add(new Item("Cake"));
 		order.getItems().add(new Item("Pen"));
 		request.setAttribute("order", order);
