@@ -9,10 +9,50 @@
 		<title>Perfect Gift</title>
 	</head>
 	
-	<body>
+	<body style = "background-color:#484848; color:white;">
 		<jsp:include page = "header.jsp" />
-		<span id = "test">
-		</span>
+		
+		<!-- This section is for the company introduction.-->
+		<table width = "100%" id = "companyIntro">
+			<tr>
+				<td class = "introHeader" style = "width:33%; padding: 10px 5px;">
+					 Vision<br/>
+					<table>
+						<tr>
+						Make the world more creative and special<br/>
+						</tr>
+						<tr>
+						Encourage and help talented people and artists<br/>
+						</tr>
+						<tr>
+						Help people find unique and special gifts for their loved ones
+						</tr>
+					</table>
+				</td>
+				<img src = "sources/divLine.png"/>
+				<td class = "introHeader" style = "width:33%; padding: 10px 5px;">
+				    Mission<br/>
+				    We aim to make your occassions more special by bringing to you a wide catalog of gifts
+				    from fresh flowers to personalized items and more.Every item you buy is not only a
+				    gift for your loved ones but also to the makers of it who get what they deserve out of the purchase. 
+				</td>
+				<td class = "introHeader" style = "width:33%; padding: 10px 15px;">
+					Product & Service<br/>
+	                <table>
+	                	<tr>
+	                		Handmade gift.<br/>
+	                	</tr>
+	                	<tr>
+	                		Self-grown vegetables.
+	                	</tr>
+	                </table>
+				</td>
+			</tr>
+		</table>
+		
+		<!-- This section is for the footer-->
 		<jsp:include page = "footer.jsp" />
+		
+		
 	</body>
 </html>

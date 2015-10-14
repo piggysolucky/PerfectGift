@@ -1,5 +1,5 @@
 
-<div id = "footerContainer" style = "text-align:right;background-color:#669900;padding:20px 2px;color:white">
+<div id = "footerContainer" style = "text-align:right;background-color:#006666;padding:20px 2px;color:white">
 	<span id = "footerContent" style ="float:left; padding-left: 80px;font-face:verdana,arial,sans-serif">
 	<a id ="footerLink" href = "" style = "text-decoration:none;Color:white">Home</a> |
 	<a href = "">Customer Services</a> |
