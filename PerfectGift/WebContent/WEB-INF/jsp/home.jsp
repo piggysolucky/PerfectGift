@@ -2,20 +2,14 @@
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
-
-	<head>
-		<meta  http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-		<link rel="stylesheet" type ="text/css" href = "/css/mystyle.css"/>
-		<title>Perfect Gift</title>
-	</head>
-	
+    <jsp:include page = "header.jsp" />
 	<body style = "background-color:#484848; color:white;">
 		<div class = "bodyContainer" style = "width: 80%; padding-left: 100px;">
 		<!--This section is for the company logo-->
 		<div>
 			<h1 style = "padding: 20px 5px; font-family:fantasy, cursive;">Perfect Gift</h1>
 		</div>
-		<jsp:include page = "header.jsp" />
+		
 		
 		<!-- This section is for the company introduction.-->
 		<div>
@@ -59,7 +53,7 @@
 
 		<!-- This section is for the footer-->
 		<jsp:include page = "footer.jsp" />
-		</div>
+   </div>
 		
 	</body>
 </html>
