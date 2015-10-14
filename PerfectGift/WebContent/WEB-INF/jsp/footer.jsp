@@ -1,13 +1,13 @@
 
-<div id = "footerContainer" style = "text-align:right;background-color:#006666;padding:20px 2px;color:white">
-	<span id = "footerContent" style ="float:left; padding-left: 80px;font-face:verdana,arial,sans-serif">
-	<a id ="footerLink" href = "" style = "text-decoration:none;Color:white">Home</a> |
-	<a href = "">Customer Services</a> |
-	<a href = "">Blog</a> |
-   <a href = "">Customer Services</a>  |  
-   <a href = "">Contact Us</a>
+<div id = "footerContainer">
+	<span id = "footerContent">
+	<a class ="footerLink" href = "">Home</a> |
+	<a class ="footerLink" href = "">Customer Services</a> |
+	<a class ="footerLink" href = "/PerfectGift/aboutus">About Us</a> |
+   <a class ="footerLink"href = "">Customer Services</a>  |  
+   <a class ="footerLink"href = "">Contact Us</a>
 	</span>
-	<span id = "footerInnerContainer" style = "padding:20px; ">
+	<span id = "footerInnerContainer">
 		Copyright 2015 @ Perfect Gift Corporation, Inc. All right reserved.
 	</span>
 </div>

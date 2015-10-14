@@ -1,14 +1,42 @@
 @CHARSET "ISO-8859-1";
 
+
+/*This section is for the body*/
+body {
+	background-color:#484848; 
+	color:white;
+}
+
+div.bodyContainer{
+	width: 80%; 
+	padding-left: 100px;
+}
+
+td.col4{
+	width:24%;
+}
+/*This section is for footer*/
 #footerContainer{
 	text-align:right;
 	background-color:#006666;
 	padding:20px 2px;
 	color:white
 }
-span{
-	padding: 20px;
-	text-align:center;
-	font-family: "Times New Roman", Times, serif;
-	color:red;
+#footerContent {
+	float:left;
+	padding-left: 80px;
+	font-face:verdana,arial,sans-serif;
+}
+a.footerLink{
+	text-decoration:none;
+	Color:white;
+}
+#footerInnerContainer{
+	padding:20px;
+}
+
+/*This section is for the home page*/
+td.introHeader{
+	width:33%; 
+	padding: 10px 5px;
 }

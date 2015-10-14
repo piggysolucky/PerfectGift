@@ -12,14 +12,35 @@
 			    	<h2 style = "text-align:center;">Get to know Us</h2>
 			    </tr>
 				<tr>
-					<td>
-						<img src = "/images/sang.jpg"  />
+					<td class = "col4">
+						<img src = "images/sang.jpg"  width = "300px;"/>
 					</td>
-					<td>
+					<td class = "col4">
+						<h3>Roles:</h3>
+						<ul>
+							<li>
+							Plan proper course of action and work towards the mission of the company while keeping a good culture
+							</li>
+							<li>
+							Act as interface between the sellers and the buyers, making sure the sellers get the true price for their effort.
+							</li>
+						</ul>
+						
 					</td>
-					<td>
+					<td class = "col4">
+						<img src = "images/rui.jpg"  width = "300px;"/>
 					</td>
-					<td>
+					<td class = "col4">
+						<h3>Roles:</h3>
+						<ul>
+							<li>
+							Daily operation of the company.
+							</li>
+							<li>
+							Marshaling limited resouces to the most productive uses with the aim of creating 
+							maximum value for the company’s stakeholders.
+							</li>
+						</ul>
 					</td>
 				</tr>
 			</table>

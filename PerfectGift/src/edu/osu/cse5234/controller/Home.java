@@ -15,4 +15,8 @@ public class Home {
 	public String viewHomePage(HttpServletRequest request, HttpServletResponse response){
 		return "home";
 	}
+	@RequestMapping(path = "/aboutus", method = RequestMethod.GET)
+	public String viewAboutUsPage(HttpServletRequest request, HttpServletResponse response){
+		return "AboutUs";
+	}
 }
