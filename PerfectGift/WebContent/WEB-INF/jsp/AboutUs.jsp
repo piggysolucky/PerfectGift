@@ -7,13 +7,14 @@
 <body >
 	<div class = "bodyContainer">
 		<div>
+		<!-- About the information of team member -->
 			<table >
 			    <tr>
 			    	<h2 style = "text-align:center;">Get to know Us</h2>
 			    </tr>
 				<tr>
 					<td class = "col4">
-						<img src = "images/sang.jpg"  width = "300px;"/>
+						<img src = "images/sang.jpg"  class = "us"/>
 					</td>
 					<td class = "col4">
 						<h3>Roles:</h3>
@@ -28,7 +29,7 @@
 						
 					</td>
 					<td class = "col4">
-						<img src = "images/rui.jpg"  width = "300px;"/>
+						<img src = "images/rui.jpg" class = "us"/>
 					</td>
 					<td class = "col4">
 						<h3>Roles:</h3>

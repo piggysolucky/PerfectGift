@@ -5,9 +5,17 @@
 		<title>Perfect Gift</title>
 	</head>
 	<!--This section is for the company logo-->
-	<body style = "background-color:#484848; color:white;">
-		<div>
-			<h1 style = "padding: 20px 5px; font-family:fantasy, cursive;">Perfect Gift</h1>
+	<body >
+		<div class = "bodyContainer">
+			<div>
+				<h1 style = "padding: 20px 5px; font-family:fantasy, cursive;">Perfect Gift</h1>
+			</div>
+			<div id = "footerContainer">
+				<span id = "footerContent">
+				<a class ="footerLink" href = "/PerfectGift/">Home</a> |
+				<a class ="footerLink" href = "/PerfectGift/purchase">Shopping</a> |
+				</span>
+			</div>
 		</div>
 	</body>
 	

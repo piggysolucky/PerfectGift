@@ -40,3 +40,49 @@ td.introHeader{
 	width:33%; 
 	padding: 10px 5px;
 }
+
+/*This section is for about us page*/
+img.us{
+	width : 240px;
+	height: 280px;
+}
+
+/*Order Entry Form*/
+table{
+	width: 80%;
+	margin-top: 20px;
+}
+
+td, td.center-col {
+	height: 40px;
+}
+
+td.center-col {
+	text-align: center;
+}
+
+td.right-col {
+	text-align: right;
+	padding-right: 15px;
+}
+
+th {
+	color: #424242;
+	border:1pt solid #808080;
+}
+
+td.tot {
+	color: #424242;
+	border:1pt solid #808080;
+}
+.tableContainer {
+	padding-left: 20px;
+}
+
+#wrapper {
+	margin-left:auto;
+    margin-right:auto;
+    height:auto; 
+    width:auto;
+}
+
