@@ -5,15 +5,21 @@
 
 	<head>
 		<meta  http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-		<link rel="stylesheet" type ="text/css" href = "/CSS/mystyle.css"/>
+		<link rel="stylesheet" type ="text/css" href = "/css/mystyle.css"/>
 		<title>Perfect Gift</title>
 	</head>
 	
 	<body style = "background-color:#484848; color:white;">
+		<div class = "bodyContainer" style = "width: 80%; padding-left: 100px;">
+		<!--This section is for the company logo-->
+		<div>
+			<h1 style = "padding: 20px 5px; font-family:fantasy, cursive;">Perfect Gift</h1>
+		</div>
 		<jsp:include page = "header.jsp" />
 		
 		<!-- This section is for the company introduction.-->
-		<table width = "100%" id = "companyIntro">
+		<div>
+			<table width = "100%" id = "companyIntro">
 			<tr>
 				<td class = "introHeader" style = "width:33%; padding: 10px 5px;">
 					 Vision<br/>
@@ -29,7 +35,7 @@
 						</tr>
 					</table>
 				</td>
-				<img src = "sources/divLine.png"/>
+				
 				<td class = "introHeader" style = "width:33%; padding: 10px 5px;">
 				    Mission<br/>
 				    We aim to make your occassions more special by bringing to you a wide catalog of gifts
@@ -49,10 +55,11 @@
 				</td>
 			</tr>
 		</table>
-		
+		</div>
+
 		<!-- This section is for the footer-->
 		<jsp:include page = "footer.jsp" />
-		
+		</div>
 		
 	</body>
 </html>
