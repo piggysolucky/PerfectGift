@@ -10,11 +10,13 @@
 			<div>
 				<h1 style = "padding: 20px 5px; font-family:fantasy, cursive;">Perfect Gift</h1>
 			</div>
-			<div id = "footerContainer">
-				<span id = "footerContent">
-				<a class ="footerLink" href = "/PerfectGift/">Home</a> |
-				<a class ="footerLink" href = "/PerfectGift/purchase">Shopping</a> |
-				</span>
+			<div id = "nav">
+				<a href = "/PerfectGift/">Home</a>
+				<a href = "/PerfectGift/">Birthday</a>
+				<a href = "/PerfectGift/">Occasions</a>
+				<a href = "/PerfectGift/">Flowers</a>
+				<a href = "/PerfectGift/">Cake</a>
+				<a href = "/PerfectGift/purchase">Cart</a>
 			</div>
 		</div>
 	</body>

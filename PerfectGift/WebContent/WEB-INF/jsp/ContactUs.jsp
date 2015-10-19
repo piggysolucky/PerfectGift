@@ -18,8 +18,10 @@
 					</td>
 					<td class = "col4">
 						<h3>Contact:</h3>
-						x..117@buckeyemail.osu.edu
+						x.117@buckeyemail.osu.edu
 					</td>
+				</tr>
+				<tr>
 					<td class = "col4">
 						<img src = "images/rui.jpg" class = "us"/>
 					</td>

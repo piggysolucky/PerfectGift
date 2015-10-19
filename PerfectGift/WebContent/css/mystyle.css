@@ -18,7 +18,7 @@ td.col4{
 /*This section is for footer*/
 #footerContainer{
 	text-align:right;
-	background-color:#006666;
+	background-color:#5F3222;
 	padding:20px 2px;
 	color:white
 }
@@ -84,5 +84,59 @@ td.tot {
     margin-right:auto;
     height:auto; 
     width:auto;
+}
+
+#navigation {
+position: fixed;
+top: 0;
+width: 100%;
+color: #ffffff;
+height: 35px;
+text-align: center;
+padding-top: 15px;
+/* Adds shadow to the bottom of the bar */
+-webkit-box-shadow: 0px 0px 8px 0px #000000;
+-moz-box-shadow: 0px 0px 8px 0px #000000;
+box-shadow: 0px 0px 8px 0px #000000;
+/* Adds the transparent background */
+background-color: rgba(1, 1, 1, 0.8);
+color: rgba(1, 1, 1, 0.8);
+}
+
+#nav a {
+text-decoration:none;
+display: block;
+padding:5px 21px;
+background:#5F3222;
+color:#eee;
+float:left;
+text-align:center;
+border-top:2px solid #815444;
+border-right:2px solid #3d1000;
+border-bottom:2px solid #3d1000;
+border-left:2px solid #815444;
+}
+
+#nav a:hover {
+background:#a37666;
+color:#000;
+border-top:2px solid #815444;
+border-right:2px solid #c59888;
+border-bottom:2px solid #c59888;
+border-left:2px solid #815444;
+}
+
+#nav ul{
+	list-style-type:none;
+	padding: 0;
+	marging: 0;
+}
+
+#nav ul li{
+	display:inline-block;
+}
+
+#nav ul li:hover > ul{
+	display:block;
 }
 

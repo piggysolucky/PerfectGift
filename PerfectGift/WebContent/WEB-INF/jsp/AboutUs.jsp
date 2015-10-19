@@ -10,14 +10,15 @@
 		<!-- About the information of team member -->
 			<table >
 			    <tr>
-			    	<h2 style = "text-align:center;">Get to know Us</h2>
+			    	<h2 style = "text-align:center;"></h2>
 			    </tr>
 				<tr>
 					<td class = "col4">
 						<img src = "images/sang.jpg"  class = "us"/>
 					</td>
 					<td class = "col4">
-						<h3>Roles:</h3>
+						<h3>Kumari Sangeeta</h3>
+						<h4>Roles:</h4>
 						<ul>
 							<li>
 							Plan proper course of action and work towards the mission of the company while keeping a good culture
@@ -28,18 +29,21 @@
 						</ul>
 						
 					</td>
+				</tr>
+				<tr>
 					<td class = "col4">
 						<img src = "images/rui.jpg" class = "us"/>
 					</td>
 					<td class = "col4">
-						<h3>Roles:</h3>
+						<h3>Rui</h3>
+						<h4>Roles:</h4>
 						<ul>
 							<li>
 							Daily operation of the company.
 							</li>
 							<li>
-							Marshaling limited resouces to the most productive uses with the aim of creating 
-							maximum value for the company’s stakeholders.
+							Marshaling limited resources to the most productive uses with the aim of creating 
+							maximum value for the company's stake holders.
 							</li>
 						</ul>
 					</td>
