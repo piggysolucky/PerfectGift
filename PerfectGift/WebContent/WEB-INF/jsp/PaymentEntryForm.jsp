@@ -39,6 +39,8 @@
 		</table>
 		<input type="submit" value="Complete Order"/>
 		</form:form>
+		<!-- This section is for the footer-->
+		<jsp:include page = "footer.jsp" />
 	</div>
 </body>
 </html>
