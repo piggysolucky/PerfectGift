@@ -10,11 +10,11 @@ public class Item {
 		this("default", "0");
 	}
 	public Item(String name){
-		this(name,"0");
+		this(name,"0", "0");
 	}
 	
 	public Item(String name, String quantity){
-		this(name,"0", "0");
+		this(name,quantity, "0");
 	}
 	public Item(String name, String quantity, String price){
 		this.name = name;

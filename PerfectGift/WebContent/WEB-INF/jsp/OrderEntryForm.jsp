@@ -1,9 +1,11 @@
 
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ page import = "java.util.*" %>
 <html>
 <!--This section is for the header section -->
     <jsp:include page = "header.jsp" />
+  
 <body>
 	<div class = "bodyContainer">
 		<div class = "orderContainer">
@@ -16,24 +18,14 @@
 				    	<td class = "cneter-col">Unit Price</td>
 				    	<td class = "right-col">Quantity</td>
 				    </tr>
-					<tr>
-				     	<td> ${order.items[0].name}</td>
-				        <form:hidden path = "items[0].name" value = "${items[0].quantity}"></form:hidden>
-				        <td> ${order.items[0].price}</td>
-				        <td><form:input path = "items[0].quantity"/></td>
-					</tr>
-					<tr>
-				        <td> ${order.items[1].name}</td>
-				        <form:hidden path = "items[1].name" value = "${items[1].quantity}"></form:hidden>
-				        <td> ${order.items[1].price}</td>
-				        <td><form:input path = "items[1].quantity"/></td>
-					</tr>
-					<tr>
-				        <td> ${order.items[2].name}</td>
-				        <form:hidden path = "items[2].name" value = "${items[0].quantity}"></form:hidden>
-				        <td> ${order.items[2].price}</td>
-				        <td><form:input path = "items[2].quantity"/></td>
-				     </tr>
+				    <c:forEach var = "i" begin = "0" end = "${order.items.size()-1}">
+				        <tr>
+				    	<td>${order.items[i].name}</td>
+				    	<form:hidden path = "items[${i}].name" value = "${order.items[i].name}"></form:hidden>
+				    	<td> ${order.items[i].price}</td>
+				        <td><form:input path = "items[${i}].quantity"/></td>
+				        </tr>
+				    	 </c:forEach>
 				    </table>
 				<input type = "submit" value = "submit" style = "text-align:center">
 				</form:form>

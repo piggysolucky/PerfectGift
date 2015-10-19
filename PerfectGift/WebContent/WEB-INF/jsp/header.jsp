@@ -2,6 +2,7 @@
 	<head>
 		<meta  http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 		<link rel="stylesheet" type ="text/css" href = "${pageContext.request.contextPath}/css/mystyle.css"/>
+		<script src = "${pageContext.request.contextPath}/js/myjs.js"></script>
 		<title>Perfect Gift</title>
 	</head>
 	<!--This section is for the company logo-->
