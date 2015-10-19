@@ -8,6 +8,7 @@
 </head>
 <body>
 <%@ page import = "edu.osu.cse5234.model.*" %>
+<%@ page import = "edu.osu.cse5234.business.*" %>
 <%@ page import = "java.util.*" %>
 <div class = "bodyContainer">
 	Please Confirm Your Orders: <br/>

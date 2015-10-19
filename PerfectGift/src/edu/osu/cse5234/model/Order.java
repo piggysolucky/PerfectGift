@@ -3,6 +3,8 @@ package edu.osu.cse5234.model;
 import java.util.ArrayList;
 import java.util.List;
 
+import edu.osu.cse5234.business.Item;
+
 public class Order {
 
 	private List<Item> items = new ArrayList<Item>();

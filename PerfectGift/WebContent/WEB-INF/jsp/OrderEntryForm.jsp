@@ -18,11 +18,11 @@
 				    	<td class = "cneter-col">Unit Price</td>
 				    	<td class = "right-col">Quantity</td>
 				    </tr>
-				    <c:forEach var = "i" begin = "0" end = "${order.items.size()-1}">
+				    <c:forEach var = "i" begin = "0" end = "${inventory.items.size()-1}">
 				        <tr>
-				    	<td>${order.items[i].name}</td>
-				    	<form:hidden path = "items[${i}].name" value = "${order.items[i].name}"></form:hidden>
-				    	<td> ${order.items[i].price}</td>
+				    	<td>${inventory.items[i].name}</td>
+				    	<form:hidden path = "items[${i}].name" value = "${inventory.items[i].name}"></form:hidden>
+				    	<td> ${inventory.items[i].price}</td>
 				        <td><form:input path = "items[${i}].quantity"/></td>
 				        </tr>
 				    	 </c:forEach>
