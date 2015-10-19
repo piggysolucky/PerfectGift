@@ -71,18 +71,9 @@ th {
 	border:1pt solid #808080;
 }
 
-td.tot {
-	color: #424242;
-	border:1pt solid #808080;
-}
-.tableContainer {
-	padding-left: 20px;
+th.title{
+	text-align:center;
 }
 
-#wrapper {
-	margin-left:auto;
-    margin-right:auto;
-    height:auto; 
-    width:auto;
-}
+
 
