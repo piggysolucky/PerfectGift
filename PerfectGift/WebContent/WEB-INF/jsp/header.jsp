@@ -15,7 +15,12 @@
 				<span id = "footerContent">
 				<a class ="footerLink" href = "/PerfectGift/">Home</a> |
 				<a class ="footerLink" href = "/PerfectGift/purchase">Shopping</a> |
-				</span>
+				<a class ="footerLink" href = "">Customer Services</a> |
+				<a class ="footerLink" href = "/PerfectGift/aboutus">About Us</a> |
+			   <a class ="footerLink"href = "">Customer Services</a>  |  
+			   <a class ="footerLink"href = "/PerfectGift/contactus">Contact Us</a> |
+			   <a class ="footerLink"href = "/PerfectGift/contactus">Log In</a>
+			   </span>
 			</div>
 		</div>
 	</body>

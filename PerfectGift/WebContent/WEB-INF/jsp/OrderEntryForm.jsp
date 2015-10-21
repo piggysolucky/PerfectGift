@@ -11,7 +11,7 @@
 		<div class = "orderContainer">
 			<div class = "orderFormContainer">
 				<form:form modelAttribute="order" method="post" action="purchase/submitItems">
-				   <table border = "1" class = "orderForm">
+				   <table border = "1" class = "orderForm center">
 				   <h3 style = "text-align:center; color:white;">Get the perfect gift for you!</h3>
 				    <tr>
 				    	<td class = "left-col">Product Name</td>
@@ -25,12 +25,13 @@
 				    	<td> ${inventory.items[i].price}</td>
 				        <td><form:input path = "items[${i}].quantity"/></td>
 				        </tr>
-				    	 </c:forEach>
+				    </c:forEach>
 				    </table>
-				<input type = "submit" value = "submit" style = "text-align:center">
+				     <div class = "innerCenter">
+					    	<input type = "submit" class = "submitButton"  value = "submit">
+					 </div>
 				</form:form>
 			</div>
-			
 		</div>
 		<!-- This section is for the footer-->
 		<jsp:include page = "footer.jsp" />

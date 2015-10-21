@@ -41,8 +41,11 @@
 			<td><form:input path="email"/></td>
 		</tr>
 	</table>
-	<input type="submit" value="Confirm"/>
+	<div class = "innerCenter">
+		<input type="submit" value="Confirm" class = "submitButton"/>
+	</div>
 	</form:form>
+	
 	
 	<!-- This section is for the footer-->
 		<jsp:include page = "footer.jsp" />

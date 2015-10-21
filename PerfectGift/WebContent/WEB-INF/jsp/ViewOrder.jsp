@@ -46,8 +46,10 @@
 	   
 	   %>
 	<form:form modelAttribute="order" method="post" action="confirmOrder">
-	  
-	<input type = "submit" value = "confirm">
+	 <div class = "innerCenter">
+	 	<input type = "submit" value = "confirm" class = "submitButton">
+	 </div>
+	
 	</form:form>
 	<jsp:include page = "footer.jsp" />
 </div>

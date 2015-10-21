@@ -11,10 +11,21 @@
 		
 		<!-- This section is for the company introduction.-->
 		<div>
-			<table width = "100%" id = "companyIntro">
+			<table width = "100%" id = "companyIntro" class = "center">
+			<tr>
+				<td>
+					<h3> Vision</h3>
+				</td>
+				<td>
+					<h3> Mission </h3>
+				</td>
+				<td>
+					<h3>Product & Service</h3>
+				</td>
+			</tr>
 			<tr>
 				<td class = "introHeader">
-					<h3> Vision</h3><br/>
+					
 					<table>
 						<tr>
 						Make the world more creative and special<br/>
@@ -29,13 +40,11 @@
 				</td>
 				
 				<td class = "introHeader">
-				   <h3> Mission </h3><br/>
 				    We aim to make your occassions more special by bringing to you a wide catalog of gifts
 				    from fresh flowers to personalized items and more.Every item you buy is not only a
 				    gift for your loved ones but also to the makers of it who get what they deserve out of the purchase. 
 				</td>
 				<td class = "introHeader">
-					<h3>Product & Service</h3><br/>
 	                <table>
 	                	<tr>
 	                		Handmade gift.<br/>

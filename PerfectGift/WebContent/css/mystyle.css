@@ -1,5 +1,31 @@
 @CHARSET "ISO-8859-1";
 
+/*General configurations*/
+
+.center{
+	margin-left:auto;
+	margin-right:auto;
+}
+.innerCenter{
+	margin-top : 20px;
+	margin-bottom: 20px;
+	text-align:center;
+}
+
+.space-small{
+	padding-top : 5px;
+	margin-bottom: 5px;
+}
+.submitButton{
+	display: in-line;
+  margin: 0;
+  width: 20%;
+  font-family: sans-serif;
+  font-size: 18px;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+}
 
 /*This section is for the body*/
 body {
@@ -15,22 +41,25 @@ div.bodyContainer{
 td.col4{
 	width:24%;
 }
+
 /*This section is for footer*/
 #footerContainer{
 	text-align:right;
 	background-color:#006666;
-	padding:20px 2px;
+	padding:20px 2px 20px 2px;
 	color:white
 }
 #footerContent {
 	float:left;
 	padding-left: 80px;
+	margin: -10px 0px;
 	font-face:verdana,arial,sans-serif;
 }
 a.footerLink{
 	text-decoration:none;
 	Color:white;
 }
+
 #footerInnerContainer{
 	padding:20px;
 }
@@ -74,6 +103,4 @@ th {
 th.title{
 	text-align:center;
 }
-
-
 

@@ -8,7 +8,8 @@
     <jsp:include page = "header.jsp" />
 <body>
 	<div class = "bodyContainer">
-		<h1>Please enter your billing information</h1>
+	    <div class = "centerInner">
+	    <h1>Please enter your billing information</h1>
 		<form:form modelAttribute="payment" method="post" action="submitPayment">
 			<table>
 				<tr>
@@ -37,8 +38,13 @@
 		    		<td><form:input path="CVV"/></td>
 		    	</tr>
 		</table>
-		<input type="submit" value="Complete Order"/>
+		<div class = "innerCenter">
+		<input type="submit" value="Complete Order" class = "submitButton"/>
+		</div>
 		</form:form>
+	    </div>
+		
+		
 		<!-- This section is for the footer-->
 		<jsp:include page = "footer.jsp" />
 	</div>
