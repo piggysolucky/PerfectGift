@@ -8,7 +8,7 @@
     <jsp:include page = "header.jsp" />
 <body>
 	<div class = "bodyContainer">
-	    <div class = "centerInner">
+	    <div class = "innerCenter">
 	    <h1>Please enter your billing information</h1>
 		<form:form modelAttribute="payment" method="post" action="submitPayment">
 			<table>

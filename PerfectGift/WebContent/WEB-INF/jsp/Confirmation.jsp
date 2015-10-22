@@ -4,7 +4,7 @@
 <html>
 <jsp:include page = "header.jsp"/>
 <body>
-<div class = "bodyContainer">
+<div class = "bodyContainer innerCenter">
 	Thanks for your order! Your order is placed.
 	</br>
 	Your confirmation number is 1.

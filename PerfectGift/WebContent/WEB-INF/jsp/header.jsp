@@ -7,12 +7,12 @@
 	</head>
 	<!--This section is for the company logo-->
 	<body >
-		<div class = "bodyContainer">
+		<div class = "bodyContainer" background = "images/nav.jpg">
 			<div>
 				<h1 style = "padding: 20px 5px; font-family:fantasy, cursive;">Perfect Gift</h1>
 			</div>
 			<div id = "footerContainer">
-				<span id = "footerContent">
+				<span id = "footerContent" background-color = "blue">
 				<a class ="footerLink" href = "/PerfectGift/">Home</a> |
 				<a class ="footerLink" href = "/PerfectGift/purchase">Shopping</a> |
 				<a class ="footerLink" href = "">Customer Services</a> |

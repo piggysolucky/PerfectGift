@@ -46,6 +46,7 @@ td.col4{
 #footerContainer{
 	text-align:right;
 	background-color:#006666;
+	background-image: url("images/nav.jpg");
 	padding:20px 2px 20px 2px;
 	color:white
 }

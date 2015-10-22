@@ -10,7 +10,7 @@
 <%@ page import = "edu.osu.cse5234.model.*" %>
 <%@ page import = "edu.osu.cse5234.business.*" %>
 <%@ page import = "java.util.*" %>
-<div class = "bodyContainer">
+<div class = "bodyContainer innerCenter">
 	Please Confirm Your Orders: <br/>
 	<% Order order = (Order)request.getSession().getAttribute("order");
 	   PaymentInfo payment = (PaymentInfo)request.getSession().getAttribute("payment");
@@ -22,9 +22,9 @@
 	    out.println("************************************ </br>");
 	    while(itr.hasNext())
 	    {
-	    Item item = itr.next();
-	    out.print(item.name + ":");
-	    out.println(item.quantity);
+	    Item it = itr.next();
+	    out.print(it.name + ":");
+	    out.println(it.quantity);
 	    out.println("</br>");
 	    
 	    out.println("</br>");
