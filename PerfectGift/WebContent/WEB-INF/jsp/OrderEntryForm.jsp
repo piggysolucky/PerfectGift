@@ -14,12 +14,14 @@
 				   <table border = "1" class = "orderForm center">
 				   <h3 style = "text-align:center; color:white;">Get the perfect gift for you!</h3>
 				    <tr>
+				        <td></td>
 				    	<td class = "left-col">Product Name</td>
 				    	<td class = "cneter-col">Unit Price</td>
 				    	<td class = "right-col">Quantity</td>
 				    </tr>
 				    <c:forEach var = "i" begin = "0" end = "${inventory.items.size()-1}">
 				        <tr>
+				        <td><form:checkbox path = "items[${i}].checked"/></td>
 				    	<td>${inventory.items[i].name}</td>
 				    	<form:hidden path = "items[${i}].name" value = "${inventory.items[i].name}"></form:hidden>
 				    	<td> ${inventory.items[i].price}</td>

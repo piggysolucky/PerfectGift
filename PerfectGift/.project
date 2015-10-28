@@ -3,6 +3,7 @@
 	<name>PerfectGift</name>
 	<comment></comment>
 	<projects>
+		<project>PerfectGift-EJBClient</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

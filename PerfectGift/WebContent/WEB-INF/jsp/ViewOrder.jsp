@@ -23,11 +23,13 @@
 	    while(itr.hasNext())
 	    {
 	    Item it = itr.next();
-	    out.print(it.name + ":");
-	    out.println(it.quantity);
-	    out.println("</br>");
-	    
-	    out.println("</br>");
+	    if(it.checked && !it.getQuantity().equals("0")){
+		    out.print(it.name + ":");
+		    out.println(it.quantity);
+		    out.println("</br>");
+		    
+		    out.println("</br>");
+	    }
 	    }
 	    out.println("************************************</br>");
 	    out.println("Payment Information" + "</br>");
